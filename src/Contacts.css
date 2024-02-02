@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  ul{
+    list-style: none;
+    margin: 0px !important;
+    padding: 0px !important ;
+  }
+  p{
+    margin: 0px !important;
+    color: #A5A5A5;
+  }
+  li{
+    margin: 0px !important;
+  }
+  a{
+    text-decoration: none !important;
+  }
+  .pd-y
+  {
+    padding: 80px 0;
+  }
+  h1,h2,h3,h4,h5,h6{
+    color: #505050;
+  }
+
+/*  ===================== teamnav start ============= */
+.topbar{
+    background-color: #F0F0F0;
+}
+.topbar p{
+    color: black;
+}
+.topnav li a{
+    color: #A5A5A5;
+}
+.topnav li:hover a{
+    color: black;
+    transition: .2s;
+}
+.topbar{
+    font-size: 14px;
+}
+/*  ===================== teamnav end============= */
+
+
+/* ====================== map start ====================== */
+
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.google-map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+/* ====================== map end ====================== */
+
+
+/* ===================== contact start ============ */
+.maincontact .cnti i{
+  padding: 8px 15px 10px 15px;
+  font-size: 40px;
+  border: 3px solid #86AE34;
+  border-radius: 50%;
+  color: #86AE34;
+}
+.cnt1 ul li:hover{
+  color: #86AE34;
+  transition: .5s;
+  cursor: pointer;
+}
+/* ===================== contact end ============ */
+
+
+.btn8{
+  color: white;
+  background-color: #333333;
+  width: 230px;
+}
+.btn8:hover{
+  background-color: #86AE34;
+  transition: .5s;
+}

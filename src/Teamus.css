@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  ul{
+    list-style: none;
+    margin: 0px !important;
+    padding: 0px !important ;
+  }
+  p{
+    margin: 0px !important;
+    color: #A5A5A5;
+  }
+  li{
+    margin: 0px !important;
+  }
+  a{
+    text-decoration: none !important;
+  }
+  .pd-y
+  {
+    padding: 80px 0;
+  }
+  h1,h2,h3,h4,h5,h6{
+    color: #505050;
+  }
+
+/*  ===================== teamnav start ============= */
+.topbar{
+    background-color: #F0F0F0;
+}
+.topbar p{
+    color: black;
+}
+.topnav li a{
+    color: #A5A5A5;
+}
+.topnav li:hover a{
+    color: black;
+    transition: .2s;
+}
+.topbar{
+    font-size: 14px;
+}
+/*  ===================== teamnav end============= */
+
+/* ====================Our Team start ==================== */
+.ourimg{
+  position: relative;
+}
+
+.ourimg::before{
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  opacity: 0;
+}
+.ourimg:hover::before{
+  visibility: visible;
+  opacity: 1;
+  transition: .5s;
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.ourcontent{
+  position: absolute;
+  top: 100%;
+  visibility: hidden;
+  opacity: 0;
+}
+.ourimg:hover .ourcontent{
+  visibility: visible;
+  opacity: 1;
+  transition: .5s;
+  position: absolute;
+  top: 50%;
+  /* left: 50%; */
+  transform: translateY(-50%);
+}
+.ourcontent h3{
+  color: white;
+}
+.ourcontent h4{
+  color: yellowgreen;
+}
+.ourcontent p{
+  color: white;
+}
+/* ==================== Our Team end==================== */
+
+
+/* ==================== backimg start==================== */
+.backimg{
+  background-image: url(./image3/b1.jpeg);
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  background-attachment: fixed;
+}
+/* ==================== backimg end==================== */
+.sccon{
+  font-size: 16px;
+}
+.pro1{
+  height: 10px;
+  width: 100%;
+  background-color: #FFFFFF;
+  position: relative;
+}
+.pro1::before {
+  content: '';
+  position: absolute;
+  height: 10px;
+  width: 90%;
+  background-color: #86AE34;
+}
+.pro2{
+  height: 10px;
+  width: 100%;
+  background-color: #FFFFFF;
+  position: relative;
+}
+.pro2::before {
+  content: '';
+  position: absolute;
+  height: 10px;
+  width: 80%;
+  background-color: #86AE34;
+}
+.pro3{
+  height: 10px;
+  width: 100%;
+  background-color: #FFFFFF;
+  position: relative;
+}
+.pro3::before {
+  content: '';
+  position: absolute;
+  height: 10px;
+  width: 70%;
+  background-color: #86AE34;
+}
+

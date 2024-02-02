@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  ul{
+    list-style: none;
+    margin: 0px !important;
+    padding: 0px !important ;
+  }
+  p{
+    margin: 0px !important;
+    color: #A5A5A5;
+  }
+  li{
+    margin: 0px !important;
+  }
+  a{
+    text-decoration: none !important;
+  }
+  .pd-y
+  {
+    padding: 80px 0;
+  }
+  h1,h2,h3,h4,h5,h6{
+    color: #505050;
+  }
+
+/*  ===================== teamnav start ============= */
+.topbar{
+    background-color: #F0F0F0;
+}
+.topbar p{
+    color: black;
+}
+.topnav li a{
+    color: #A5A5A5;
+}
+.topnav li:hover a{
+    color: black;
+    transition: .2s;
+}
+.topbar{
+    font-size: 14px;
+}
+/*  ===================== teamnav end============= */
+
+.search{
+  height: 50px;
+  width: 150px;
+}
+.btn1{
+    border: 0;
+    height: 50px;
+    width: 150px;
+    background-color: #93B74A;
+}
+.check ul li a{
+    color: #93B74A !important;
+}
+
+.procon1 p{
+  font-size: 14px;
+  color: #93B74A;
+}
+.procon1 h6{
+  font-size: 15px;
+}
+.procon1 p:hover{
+  font-size: 14px;
+  color: black;
+  transition: .4s;
+  cursor: pointer;
+
+}
+.procon1 h6:hover{
+  cursor: pointer;
+  transition: .4s;
+  font-size: 15px;
+  color: #93B74A;
+}
+.procon1 h5{
+  font-size: 18px;
+  color: #93B74A;
+}
+
+
+/* ================= shop right start ============================= */
+.subproduct .btn7{
+  color: white;
+  font-weight: bold;
+  background-color: #93B74A;
+}
+.subpro a{
+  color: black;
+  font-size: 20px;
+}
+.mainimg:hover .contentour{
+  visibility: hidden;
+  opacity: 0;
+  transition: .5s;
+}
+.mainimg {
+  position: relative;
+}
+.subproduct{
+  position: absolute;
+  bottom: -7%;
+  opacity: 0;
+  visibility: hidden;
+}
+.mainimg:hover .subproduct{
+  visibility: visible;
+  opacity: 1;
+  transition: .5s;
+  bottom: 3%;
+}
+.subproduct .subpro a:hover {
+  color: #679509;
+}
+
+
+/* ================= shop right end ============================= */
